@@ -48,3 +48,16 @@ A secure Spring Boot backend application for managing investment portfolios and 
 
 ```sql
 create database portfolio_db;
+
+3.Update application.properties
+4.Run Spring Boot app
+
+🔮 Future Enhancements
+Sharpe Ratio
+Volatility Analytics
+Redis Caching
+Docker Deployment
+AWS Hosting
+
+👩‍💻 Author
+Harini Cherala
