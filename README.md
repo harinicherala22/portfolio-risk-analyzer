@@ -46,18 +46,28 @@ A secure Spring Boot backend application for managing investment portfolios and 
 1. Clone repository
 2. Create MySQL database:
 
-```sql
+sql
 create database portfolio_db;
+Update application.properties
+spring.datasource.url=jdbc:mysql://localhost:3306/portfolio_db
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+Run Spring Boot application
 
-3.Update application.properties
-4.Run Spring Boot app
 
 🔮 Future Enhancements
-Sharpe Ratio
+Sharpe Ratio Calculation
 Volatility Analytics
 Redis Caching
 Docker Deployment
 AWS Hosting
+Role Based Access Control
+
+🧪 Testing
+Unit tests written using JUnit 5
+Mockito used for mocking dependencies
+Service layer business logic tested
 
 👩‍💻 Author
 Harini Cherala
+
